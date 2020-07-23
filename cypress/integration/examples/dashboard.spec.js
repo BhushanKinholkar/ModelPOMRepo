@@ -83,6 +83,7 @@ describe('Dashboad Test cases', function()
     it('Click on Recuremnt page', function(){
         dh.Click_on_Recurementpage()
         cy.url().should('include','/recruitment/viewCandidates')
+        cy.log('mnasnm')
 
     })
 
