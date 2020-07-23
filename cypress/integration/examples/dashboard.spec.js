@@ -74,11 +74,11 @@ describe('Dashboad Test cases', function()
 
     })
 
-    it('Click on Time page', function(){
+    /*it('Click on Time page', function(){
         dh.Click_on_Timepage()
         cy.url().should('include','/time/viewEmployeeTimesheet')
 
-    })
+    })*/
 
     it('Click on Recuremnt page', function(){
         dh.Click_on_Recurementpage()

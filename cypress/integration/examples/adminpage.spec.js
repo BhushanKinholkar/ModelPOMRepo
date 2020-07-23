@@ -21,8 +21,7 @@ describe('Admin pages testcases', function()
     it('Get the page title',function()
     {
         ap.PageTitle()
-       
-
+       cy.log('new user commit')
     })
     
     it('Enter the all data',function()
