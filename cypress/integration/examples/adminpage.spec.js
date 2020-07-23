@@ -21,11 +21,8 @@ describe('Admin pages testcases', function()
     it('Get the page title',function()
     {
         ap.PageTitle()
-        cy.log('sdfhksd')
-        cy.log('sdfhksd')
-        cy.log('sdfhksd')
-        cy.log('sdfhksd')
-        
+       
+
     })
     
     it('Enter the all data',function()
