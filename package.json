@@ -4,8 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "cypress:open": "cypress open"
+    "test": "./node_modules/.bin/cypress open",
+    "headtest":"./node_modules/.bin/cypress run",
+    "cypress:open": "cypress open",
+    "headtestrun":"./node_modules/.bin/cypress run --record --key 3538a256-5334-46af-9824-facd1be8b708",
+    "regresionsuite":"./node_modules/.bin/cypress run --spec 'cypress/integration/examples/*.js' --record --key 3538a256-5334-46af-9824-facd1be8b708"
   },
   "author": "",
   "license": "ISC",
